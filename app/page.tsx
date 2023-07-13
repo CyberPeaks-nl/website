@@ -44,7 +44,7 @@ const Page: React.FC = () => {
           "Van Bossestraat 48-2",
           "1051 KA Amsterdam",
           "KVK: 90761014",
-          // "BTW: NL00XXXXXXXBXX",
+          "BTW: NL004841594B67",
           "IBAN: NL79ASNB8821989690",
         ]}
       />

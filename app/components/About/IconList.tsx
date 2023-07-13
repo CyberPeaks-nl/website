@@ -1,7 +1,11 @@
 import cx from "classnames";
 import React, { SVGProps } from "react";
 
-export type IconLink = [Icon: React.FC<SVGProps<SVGSVGElement>>, link: string];
+export type IconLink = [
+  Icon: React.FC<SVGProps<SVGSVGElement>>,
+  name: string,
+  link: string
+];
 
 type Props = {
   className?: string;
@@ -11,7 +15,7 @@ type Props = {
 export const IconLinkList: React.FC<Props> = ({ className, iconLinks }) => {
   return (
     <div className={className}>
-      {iconLinks.map(([Icon, link], index) => {
+      {iconLinks.map(([Icon, name, link], index) => {
         return (
           <a
             className={cx(
@@ -24,6 +28,7 @@ export const IconLinkList: React.FC<Props> = ({ className, iconLinks }) => {
               "md:mx-2"
             )}
             key={index}
+            title={name}
             href={link}
           >
             <Icon

@@ -16,9 +16,9 @@ const Page: React.FC = () => {
       <About
         title={TAG_LINE}
         iconLinks={[
-          [LinkedIn, "https://linkedin.com/in/tzengerink"],
-          [GitHub, "https://github.com/tzengerink"],
-          [PDF, "./CV-Teun-Zengerink-CyberPeaks.pdf"],
+          [LinkedIn, "LinkedIn", "https://linkedin.com/in/tzengerink"],
+          [GitHub, "GitHub", "https://github.com/tzengerink"],
+          [PDF, "Curriculum Vitae", "./CV-Teun-Zengerink-CyberPeaks.pdf"],
         ]}
       >
         {SNIPPET}
@@ -44,7 +44,7 @@ const Page: React.FC = () => {
           "Van Bossestraat 48-2",
           "1051 KA Amsterdam",
           "KVK: 90761014",
-          // "BTW: NL00XXXXXXXBXX",
+          "BTW: NL004841594B67",
           "IBAN: NL79ASNB8821989690",
         ]}
       />

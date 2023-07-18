@@ -1,8 +1,11 @@
 import { test, expect } from "@playwright/test";
 
-test("should have title", async ({ page }) => {
+test("should render correctly", async ({ page }, testInfo) => {
+  testInfo.snapshotSuffix = "";
   await page.goto("/");
-  await expect(page).toHaveTitle(/CyberPeaks/);
+  await expect(page).toHaveScreenshot("screenshot.png", {
+    maxDiffPixelRatio: 0.05,
+  });
 });
 
 test("should navigate to LinkedIn", async ({ page }) => {

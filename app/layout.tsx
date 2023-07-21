@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import React, { PropsWithChildren } from "react";
 import { COMPANY_NAME, SNIPPET, TAG_LINE } from "./constants";
 import "./globals.css";

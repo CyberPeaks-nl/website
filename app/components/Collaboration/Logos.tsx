@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import cx from "classnames";
 import React from "react";
 import { Logo } from "../types";
@@ -23,6 +24,7 @@ export const Logos: React.FC<Props> = ({ className, logos }) => {
               "md:mx-4"
             )}
             key={index}
+            alt="Logo"
             src={path}
             width={width}
             height={height}

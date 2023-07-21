@@ -16,7 +16,7 @@ export const BannerImage: React.FC<Props> = ({ path }) => {
         "bg-top",
         "bg-cover",
         "md:h-[200px]",
-        "lg:h-[300px]"
+        "lg:h-[300px]",
       )}
     />
   );

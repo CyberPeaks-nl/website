@@ -9,7 +9,7 @@ const NotFound: React.FC = () => {
         "inset-0",
         "bg-white",
         "font-mono",
-        "text-center"
+        "text-center",
       )}
     >
       <h1 className={cx("text-xl", "font-bold", "mt-20")}>404 - Not Found</h1>

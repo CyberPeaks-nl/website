@@ -22,7 +22,7 @@ export const About: React.FC<PropsWithChildren<Props>> = ({
         "py-3",
         "font-mono",
         "text-white",
-        "text-center"
+        "text-center",
       )}
     >
       <div className={cx("max-w-lg", "mx-auto")}>

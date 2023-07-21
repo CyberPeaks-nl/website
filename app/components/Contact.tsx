@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import cx from "classnames";
 import React from "react";
 
@@ -22,6 +23,7 @@ export const Contact: React.FC<Props> = ({
       <div className={cx("flex", "justify-center", "my-4")}>
         <img
           className={cx("w-20", "h-20", "rounded-full", "md:w-24", "md:h-24")}
+          alt="avatar"
           src={avatarPath}
           width="460"
           height="460"

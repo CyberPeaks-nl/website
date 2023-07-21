@@ -4,7 +4,7 @@ import React, { SVGProps } from "react";
 export type IconLink = [
   Icon: React.FC<SVGProps<SVGSVGElement>>,
   name: string,
-  link: string
+  link: string,
 ];
 
 type Props = {
@@ -25,7 +25,7 @@ export const IconLinkList: React.FC<Props> = ({ className, iconLinks }) => {
               "border-white",
               "border",
               "rounded-full",
-              "md:mx-2"
+              "md:mx-2",
             )}
             key={index}
             title={name}

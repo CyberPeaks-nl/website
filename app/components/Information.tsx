@@ -20,7 +20,7 @@ export const Information: React.FC<Props> = ({ companyName, infoLines }) => {
         "text-white",
         "text-xs",
         "text-center",
-        "lg:flex-row"
+        "lg:flex-row",
       )}
     >
       <span className={cx("font-normal")}>{companyName}</span>

@@ -1,16 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 import cx from "classnames";
 import React from "react";
+import { Logo } from "./types";
 
 type Props = {
+  avatar: Logo;
   fullName: string;
-  avatarPath: string;
   emailAddress: string;
   phoneNumber: string;
 };
 
 export const Contact: React.FC<Props> = ({
-  avatarPath,
+  avatar,
   fullName,
   emailAddress,
   phoneNumber,
@@ -23,10 +24,11 @@ export const Contact: React.FC<Props> = ({
       <div className={cx("flex", "justify-center", "my-4")}>
         <img
           className={cx("w-20", "h-20", "rounded-full", "md:w-24", "md:h-24")}
-          alt="avatar"
-          src={avatarPath}
-          width="460"
-          height="460"
+          alt={avatar.label}
+          title={avatar.label}
+          src={avatar.path}
+          width={avatar.size[0]}
+          height={avatar.size[1]}
         />
         <div
           className={cx(
@@ -36,7 +38,7 @@ export const Contact: React.FC<Props> = ({
             "space-y-1",
             "ml-3",
             "text-sm",
-            "md:text-base"
+            "md:text-base",
           )}
         >
           <span className={cx("block")}>{fullName}</span>

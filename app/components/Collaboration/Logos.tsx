@@ -11,7 +11,7 @@ type Props = {
 export const Logos: React.FC<Props> = ({ className, logos }) => {
   return (
     <div className={className}>
-      {logos.map(({ path, size: [width, height] }, index) => {
+      {logos.map(({ label, path, size: [width, height] }, index) => {
         return (
           <img
             className={cx(
@@ -21,10 +21,11 @@ export const Logos: React.FC<Props> = ({ className, logos }) => {
               "max-h-[40px]",
               "h-auto",
               "w-auto",
-              "md:mx-4"
+              "md:mx-4",
             )}
             key={index}
-            alt="Logo"
+            alt={label}
+            title={label}
             src={path}
             width={width}
             height={height}

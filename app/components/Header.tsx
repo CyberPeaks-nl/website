@@ -9,6 +9,7 @@ type Props = {
 
 export const Header: React.FC<Props> = ({
   logo: {
+    label,
     path,
     size: [width, height],
   },
@@ -17,7 +18,8 @@ export const Header: React.FC<Props> = ({
     <div className={cx("p-6", "md:p-8", "lg:p-10")}>
       <img
         className={cx("mx-auto", "h-8", "w-auto", "md:h-12", "lg:h-16")}
-        alt="Logo"
+        alt={label}
+        title={label}
         src={path}
         width={width}
         height={height}

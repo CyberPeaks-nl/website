@@ -1,9 +1,5 @@
-name: Push and Pull
+name: Pull Request
 on:
-  push:
-    branches:
-      - "*"
-      - "!main"
   pull_request:
     branches:
       - "*"
@@ -25,5 +21,3 @@ jobs:
         run: npm run lint
       - name: Test
         run: npm run test
-      - name: Build
-        run: npm run build

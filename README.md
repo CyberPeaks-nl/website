@@ -1,8 +1,6 @@
 # Website
 
-[Visit website](https://www.cyberpeaks.nl)
-
-The website was build using the following technologies:
+[The website](https://www.cyberpeaks.nl) was build using the following technologies:
 
 -   [TypeScript](https://www.typescriptlang.org/)
 -   [React](https://react.dev/)

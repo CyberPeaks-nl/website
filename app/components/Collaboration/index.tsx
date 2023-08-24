@@ -10,8 +10,16 @@ type Props = {
 
 export const Collaboration: React.FC<Props> = ({ title, logos }) => {
   return (
-    <div className={cx("m-4", "font-mono", "font-thin")}>
-      <h4 className={cx("text-sm", "text-gray", "text-center", "md:text-base")}>
+    <div className={cx("m-4", "font-mono", "font-thin", "lg:m-12")}>
+      <h4
+        className={cx(
+          "text-sm",
+          "text-light-gray",
+          "text-center",
+          "md:text-base",
+          "lg:my-4",
+        )}
+      >
         {title}
       </h4>
       <Logos

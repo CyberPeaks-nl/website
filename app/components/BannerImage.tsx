@@ -11,12 +11,12 @@ export const BannerImage: React.FC<Props> = ({ path }) => {
       style={{ backgroundImage: `url("${path}")` }}
       className={cx(
         "w-full",
-        "h-[100px]",
+        "h-[140px]",
         "bg-no-repeat",
         "bg-top",
         "bg-cover",
         "md:h-[200px]",
-        "lg:h-[300px]",
+        "lg:h-[320px]",
       )}
     />
   );

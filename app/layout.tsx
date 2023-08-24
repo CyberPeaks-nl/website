@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import React, { PropsWithChildren } from "react";
-import { COMPANY_NAME, SNIPPET, TAG_LINE } from "./constants";
+import { COMPANY_NAME, FULL_NAME, SNIPPET, TAG_LINE } from "./constants";
 import "./globals.css";
 
 const Layout: React.FC<PropsWithChildren> = ({ children }) => {
@@ -8,7 +8,7 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
-        <meta name="description" content={SNIPPET} />
+        <meta name="description" content={`${FULL_NAME} - ${SNIPPET}`} />
         <title>{`${COMPANY_NAME} - ${TAG_LINE}`}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

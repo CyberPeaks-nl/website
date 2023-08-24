@@ -14,7 +14,7 @@ export const Information: React.FC<Props> = ({ companyName, infoLines }) => {
         "flex-col",
         "justify-center",
         "p-8",
-        "bg-gray",
+        "bg-dark-gray",
         "font-mono",
         "font-thin",
         "text-white",

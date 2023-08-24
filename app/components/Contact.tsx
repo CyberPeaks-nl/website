@@ -17,13 +17,31 @@ export const Contact: React.FC<Props> = ({
   phoneNumber,
 }) => {
   return (
-    <div className={cx("p-4", "border-b", "border-b-gray", "font-mono")}>
-      <h3 className={cx("font-bold", "text-lg", "text-center", "md:text-xl")}>
+    <div className={cx("p-4", "bg-light-gray", "font-mono", "lg:p-8")}>
+      <h3
+        className={cx(
+          "font-bold",
+          "text-lg",
+          "text-center",
+          "md:text-xl",
+          "md:my-2",
+          "lg:text-2xl",
+          "lg:my-4",
+        )}
+      >
         Get in touch?
       </h3>
-      <div className={cx("flex", "justify-center", "my-4")}>
+      <div className={cx("flex", "justify-center", "my-4", "lg:my-6")}>
         <img
-          className={cx("w-20", "h-20", "rounded-full", "md:w-24", "md:h-24")}
+          className={cx(
+            "w-20",
+            "h-20",
+            "rounded-full",
+            "md:w-24",
+            "md:h-24",
+            "lg:w-32",
+            "lg:h-32",
+          )}
           alt={avatar.label}
           title={avatar.label}
           src={avatar.path}
@@ -39,6 +57,8 @@ export const Contact: React.FC<Props> = ({
             "ml-3",
             "text-sm",
             "md:text-base",
+            "lg:text-lg",
+            "lg:ml-5",
           )}
         >
           <span className={cx("block")}>{fullName}</span>

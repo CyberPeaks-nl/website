@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import cx from "classnames";
 import React from "react";
-import { Logo } from "../types";
+import { Logo } from "../../types";
 
 type Props = {
   className?: string;
@@ -17,12 +17,14 @@ export const Logos: React.FC<Props> = ({ className, logos }) => {
             className={cx(
               "my-4",
               "mx-auto",
-              "max-w-[200px]",
-              "max-h-[40px]",
+              "max-w-[150px]",
+              "max-h-[30px]",
               "h-auto",
               "w-auto",
               "md:mx-4",
               "md:my-6",
+              "md:max-w-[200px]",
+              "md:max-h-[40px]",
               "lg:mx-8",
               "lg:max-w-[300px]",
               "lg:max-h-[60px]",

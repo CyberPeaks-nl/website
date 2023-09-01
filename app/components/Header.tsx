@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import cx from "classnames";
 import React from "react";
-import { Logo } from "./types";
+import { Logo } from "../types";
 
 type Props = {
   logo: Logo;

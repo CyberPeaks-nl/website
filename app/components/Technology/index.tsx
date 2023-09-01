@@ -1,5 +1,5 @@
 import cx from "classnames";
-import { Logo } from "../types";
+import { Logo } from "../../types";
 import { LogoGrid } from "./LogoGrid";
 
 type Props = {
@@ -12,7 +12,7 @@ export const Technology: React.FC<Props> = ({ title, logos }) => {
     <div className={cx("my-6", "mx-8", "font-mono", "font-thin", "lg:my-10")}>
       <h3
         className={cx(
-          "mb-4",
+          "mb-5",
           "text-center",
           "text-sm",
           "text-light-gray",

@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "postinstall": "playwright install",
-    "prepare": "husky install",
+    "prepare": "husky",
     "start": "next start",
     "test": "yarn test:e2e",
     "test:e2e": "playwright test e2e",

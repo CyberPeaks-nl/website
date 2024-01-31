@@ -25,5 +25,5 @@ test("should download the curriculum vitae", async ({ page }) => {
   await page.goto("/");
   await page.getByTitle("Curriculum Vitae").click();
   const download = await promise;
-  await expect(await download.path()).toBeDefined();
+  expect(await download.path()).toBeDefined();
 });

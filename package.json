@@ -21,7 +21,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.43.0",
+    "@playwright/test": "^1.43.1",
     "@types/node": "20.12.5",
     "@types/react": "18.2.74",
     "autoprefixer": "^10.4.19",

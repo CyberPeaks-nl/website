@@ -22,6 +22,7 @@ export const TECHNOLOGY_LOGOS: Logo[] = [
   { label: "Angular", path: "./img/technologies/angular.svg", size: [50, 50] },
   { label: "Vue.js", path: "./img/technologies/vue.svg", size: [50, 50] },
   { label: "Next.js", path: "./img/technologies/nextjs.svg", size: [50, 50] },
+  { label: "NestJS", path: "./img/technologies/nestjs.svg", size: [50, 50] },
   { label: "GraphQL", path: "./img/technologies/graphql.svg", size: [50, 50] },
   { label: "Redux", path: "./img/technologies/redux.svg", size: [50, 50] },
   { label: "RxJS", path: "./img/technologies/rxjs.svg", size: [50, 50] },
@@ -50,7 +51,6 @@ export const TECHNOLOGY_LOGOS: Logo[] = [
   },
   { label: "Figma", path: "./img/technologies/figma.svg", size: [50, 50] },
   { label: "Adobe", path: "./img/technologies/adobe.svg", size: [50, 50] },
-  { label: "VSCode", path: "./img/technologies/vscode.svg", size: [50, 50] },
 ];
 
 export const COLLABORATION_LOGOS: Logo[] = [

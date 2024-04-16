@@ -34,7 +34,7 @@ const Page: React.FC = () => {
         {SNIPPET}
       </About>
       <Technology
-        title="Experience in developing with a variety of technologies"
+        title="Experienced in developing with a variety of technologies"
         logos={TECHNOLOGY_LOGOS}
       />
       <Contact

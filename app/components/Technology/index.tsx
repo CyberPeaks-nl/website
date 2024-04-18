@@ -15,7 +15,7 @@ export const Technology: React.FC<Props> = ({ title, logos }) => {
           "mb-5",
           "text-center",
           "text-sm",
-          "text-light-gray",
+          "text-dark-gray",
           "md:text-base",
           "lg:mb-8",
         )}

@@ -5,3 +5,9 @@ export type Logo = {
   path: string;
   size: Size;
 };
+
+export type USP = {
+  title: string;
+  description: string;
+  icon: Logo;
+};

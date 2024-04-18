@@ -1,4 +1,4 @@
-import { Logo } from "./types";
+import { USP, Logo } from "./types";
 
 export const COMPANY_NAME = "CyberPeaks";
 export const FULL_NAME = "Teun Zengerink";
@@ -51,6 +51,39 @@ export const TECHNOLOGY_LOGOS: Logo[] = [
   },
   { label: "Figma", path: "./img/technologies/figma.svg", size: [50, 50] },
   { label: "Adobe", path: "./img/technologies/adobe.svg", size: [50, 50] },
+];
+
+export const UNIQUE_SELLING_POINTS: USP[] = [
+  {
+    title: "Code Development",
+    description:
+      "Build your solutions faster and tackle your challenges earlier. Create a user friendly and secure codebase.",
+    icon: {
+      label: "Code Development",
+      path: "./img/unique-selling-points/machine-vision.svg",
+      size: [200, 200],
+    },
+  },
+  {
+    title: "Technical Guidance",
+    description:
+      "Enable your team to get the most out of the technology. Ensure your features are reliable and maintainable.",
+    icon: {
+      label: "Technical Guidance",
+      path: "./img/unique-selling-points/intelligent-positioning.svg",
+      size: [200, 200],
+    },
+  },
+  {
+    title: "Thorough Code Reviews",
+    description:
+      "Assist your organisation in preventing issues at an early stage. Enforce knowledge sharing and generate confidence.",
+    icon: {
+      label: "Thorough Code Reviews",
+      path: "./img/unique-selling-points/availability.svg",
+      size: [200, 200],
+    },
+  },
 ];
 
 export const COLLABORATION_LOGOS: Logo[] = [

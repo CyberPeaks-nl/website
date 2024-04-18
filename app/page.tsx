@@ -7,6 +7,7 @@ import { Header } from "./components/Header";
 import { GitHub, LinkedIn, PDF } from "./components/Icons";
 import { Information } from "./components/Information";
 import { Technology } from "./components/Technology";
+import { UniqueSellingPoints } from "./components/UniqueSellingPoints";
 import {
   COLLABORATION_LOGOS,
   COMPANY_NAME,
@@ -14,6 +15,7 @@ import {
   SNIPPET,
   TAG_LINE,
   TECHNOLOGY_LOGOS,
+  UNIQUE_SELLING_POINTS,
 } from "./constants";
 
 const Page: React.FC = () => {
@@ -47,6 +49,7 @@ const Page: React.FC = () => {
         emailAddress="teun@cyberpeaks.nl"
         phoneNumber="+31654716572"
       />
+      <UniqueSellingPoints usps={UNIQUE_SELLING_POINTS} />
       <Collaboration
         title="Proud to have collaborated with some awesome companies"
         logos={COLLABORATION_LOGOS}

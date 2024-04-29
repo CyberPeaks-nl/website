@@ -23,7 +23,8 @@ export const About: React.FC<PropsWithChildren<Props>> = ({
         "font-mono",
         "text-white",
         "text-center",
-        "lg:py-8",
+        "md:py-6",
+        "lg:py-12",
       )}
     >
       <div className={cx("max-w-lg", "mx-auto", "lg:max-w-xl")}>
@@ -51,7 +52,10 @@ export const About: React.FC<PropsWithChildren<Props>> = ({
         >
           {children}
         </p>
-        <IconLinkList className={cx("my-6", "lg:mt-8")} iconLinks={iconLinks} />
+        <IconLinkList
+          className={cx("my-4", "md:mt-6", "lg:mt-8")}
+          iconLinks={iconLinks}
+        />
       </div>
     </div>
   );

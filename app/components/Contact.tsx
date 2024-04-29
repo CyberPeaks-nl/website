@@ -4,6 +4,7 @@ import React from "react";
 import { Logo } from "../types";
 
 type Props = {
+  title: React.ReactNode;
   avatar: Logo;
   fullName: string;
   emailAddress: string;
@@ -11,6 +12,7 @@ type Props = {
 };
 
 export const Contact: React.FC<Props> = ({
+  title,
   avatar,
   fullName,
   emailAddress,
@@ -29,7 +31,7 @@ export const Contact: React.FC<Props> = ({
           "lg:my-4",
         )}
       >
-        Get in touch?
+        {title}
       </h3>
       <div className={cx("flex", "justify-center", "my-4", "lg:my-6")}>
         <img

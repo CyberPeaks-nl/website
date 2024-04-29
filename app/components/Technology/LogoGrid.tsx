@@ -24,7 +24,7 @@ export const LogoGrid: React.FC<Props> = ({ logos }) => {
         "md:gap-8",
         "lg:w-2/3",
         "lg:my-14",
-        "lg:gap-10",
+        "lg:gap-12",
       )}
     >
       {logos.map(({ label, path, size: [width, height] }, index) => {

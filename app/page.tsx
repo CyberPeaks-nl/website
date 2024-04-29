@@ -40,6 +40,7 @@ const Page: React.FC = () => {
         logos={TECHNOLOGY_LOGOS}
       />
       <Contact
+        title="Get in touch?"
         avatar={{
           label: FULL_NAME,
           path: "./img/avatar.png",
@@ -49,7 +50,10 @@ const Page: React.FC = () => {
         emailAddress="teun@cyberpeaks.nl"
         phoneNumber="+31654716572"
       />
-      <UniqueSellingPoints usps={UNIQUE_SELLING_POINTS} />
+      <UniqueSellingPoints
+        title="Guiding organisations towards their next digital peak"
+        usps={UNIQUE_SELLING_POINTS}
+      />
       <Collaboration
         title="Proud to have collaborated with some awesome companies"
         logos={COLLABORATION_LOGOS}

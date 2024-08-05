@@ -58,6 +58,7 @@ export const UniqueSellingPoints: React.FC<Props> = ({ title, usps }) => {
                 "xl:mx-14",
               )}
             >
+              {/* eslint-disable @next/next/no-img-element */}
               <img
                 className={cx(
                   "mx-auto",
@@ -74,6 +75,7 @@ export const UniqueSellingPoints: React.FC<Props> = ({ title, usps }) => {
                 width={usp.icon.size[0]}
                 height={usp.icon.size[1]}
               />
+              {/* eslint-enable @next/next/no-img-element */}
               <span
                 className={cx(
                   "block",

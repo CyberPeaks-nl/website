@@ -27,3 +27,9 @@ test("should download the curriculum vitae", async ({ page }) => {
   const download = await promise;
   expect(await download.path()).toBeDefined();
 });
+
+test("should show 404 that navigates home", async ({ page }) => {
+  await page.goto("/asdf");
+  await page.getByText("Go to the homepage").click();
+  await expect(page).toHaveURL("/");
+});

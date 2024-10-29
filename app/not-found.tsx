@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import cx from "classnames";
 
 const NotFound: React.FC = () => {
@@ -14,9 +15,9 @@ const NotFound: React.FC = () => {
     >
       <h1 className={cx("text-xl", "font-bold", "mt-20")}>404 - Not Found</h1>
       <p className={cx("mr-2")}>Let me guide you back on track:</p>
-      <a className={cx("text-purple", "underline")} href="/">
+      <Link className={cx("text-purple", "underline")} href="/">
         Go to the homepage
-      </a>
+      </Link>
     </main>
   );
 };

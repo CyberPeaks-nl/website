@@ -12,9 +12,12 @@
     "lint": "next lint"
   },
   "lint-staged": {
-    "**/*.{ts,tsx}": ["prettier --write"]
+    "**/*.{ts,tsx}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
     "classnames": "^2.5.1",
     "next": "^15.1.6",
     "react": "^19.0.0",

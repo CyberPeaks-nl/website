@@ -48,7 +48,7 @@ const Page: React.FC = () => {
         }}
         fullName={FULL_NAME}
         emailAddress="teun@cyberpeaks.nl"
-        phoneNumber="+31654716572"
+        phoneNumber="+31 6 5471 6572"
       />
       <UniqueSellingPoints
         title="Guiding organisations towards their next digital peak"

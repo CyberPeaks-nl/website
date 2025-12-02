@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import cx from "classnames";
 import { USP } from "../types";
@@ -58,8 +59,7 @@ export const UniqueSellingPoints: React.FC<Props> = ({ title, usps }) => {
                 "xl:mx-14",
               )}
             >
-              {/* eslint-disable @next/next/no-img-element */}
-              <img
+              <Image
                 className={cx(
                   "mx-auto",
                   "max-w-[100px]",
@@ -75,7 +75,6 @@ export const UniqueSellingPoints: React.FC<Props> = ({ title, usps }) => {
                 width={usp.icon.size[0]}
                 height={usp.icon.size[1]}
               />
-              {/* eslint-enable @next/next/no-img-element */}
               <span
                 className={cx(
                   "block",

@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import cx from "classnames";
 import React from "react";
 import { Logo } from "../types";
@@ -34,7 +34,7 @@ export const Contact: React.FC<Props> = ({
         {title}
       </h3>
       <div className={cx("flex", "justify-center", "my-4", "lg:my-6")}>
-        <img
+        <Image
           className={cx(
             "w-20",
             "h-20",

@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import cx from "classnames";
 import React from "react";
 import { Logo } from "../../types";
@@ -13,7 +13,7 @@ export const Logos: React.FC<Props> = ({ className, logos }) => {
     <div className={className}>
       {logos.map(({ label, path, size: [width, height] }, index) => {
         return (
-          <img
+          <Image
             className={cx(
               "my-4",
               "mx-auto",

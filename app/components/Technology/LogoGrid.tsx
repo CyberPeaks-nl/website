@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import cx from "classnames";
 import { Logo } from "../../types";
 
@@ -29,7 +29,7 @@ export const LogoGrid: React.FC<Props> = ({ logos }) => {
     >
       {logos.map(({ label, path, size: [width, height] }, index) => {
         return (
-          <img
+          <Image
             className={cx(
               "w-8",
               "h-8",

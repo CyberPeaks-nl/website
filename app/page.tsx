@@ -22,9 +22,9 @@ const Page: React.FC = () => {
   return (
     <main className="bg-white">
       <Header
-        logo={{ label: COMPANY_NAME, path: "./img/logo.png", size: [231, 41] }}
+        logo={{ label: COMPANY_NAME, path: "/img/logo.png", size: [231, 41] }}
       />
-      <BannerImage path="./img/mountain-peaks.png" />
+      <BannerImage path="/img/mountain-peaks.png" />
       <About
         title={TAG_LINE}
         iconLinks={[
@@ -43,7 +43,7 @@ const Page: React.FC = () => {
         title="Get in touch?"
         avatar={{
           label: FULL_NAME,
-          path: "./img/avatar.png",
+          path: "/img/avatar.png",
           size: [460, 460],
         }}
         fullName={FULL_NAME}

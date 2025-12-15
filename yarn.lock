@@ -2304,10 +2304,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@opennextjs/aws@3.9.1":
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/@opennextjs/aws/-/aws-3.9.1.tgz#5fc35af468bf07022b2b602f19fa651730e7fce1"
-  integrity sha512-livYX8aIjXCYt3plyxqKisAyGRFfcUfo1BYtZppmugcPQBokbIzZ+jEUJbqUq1qZAIxRVAqMHDikbyTRadOx9A==
+"@opennextjs/aws@3.9.4":
+  version "3.9.4"
+  resolved "https://registry.yarnpkg.com/@opennextjs/aws/-/aws-3.9.4.tgz#8477d23ff6b441525d8d4b53d707efba99215723"
+  integrity sha512-i5gWKSP7QQGz59z85ZjOGtIfXK1ZgRLEwbt7/dkmuujhTuMBWygQqrb2EGRf8vRZH1Xvp0fYENUZx7NjgvxsIg==
   dependencies:
     "@ast-grep/napi" "^0.40.0"
     "@aws-sdk/client-cloudfront" "3.398.0"
@@ -2327,14 +2327,14 @@
     urlpattern-polyfill "^10.1.0"
     yaml "^2.8.1"
 
-"@opennextjs/cloudflare@^1.14.1":
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/@opennextjs/cloudflare/-/cloudflare-1.14.1.tgz#b7e89d2d46f462c3ac36718a6a10b2b932840c45"
-  integrity sha512-yW/RoyPg77R56EzAC9Y1HnQMktKGx5ireU0R3XiwGO4rd2pIhHXyDxj18kX3Qgt3iozBvMXrSa2BxYcmaSN1MQ==
+"@opennextjs/cloudflare@^1.14.4":
+  version "1.14.4"
+  resolved "https://registry.yarnpkg.com/@opennextjs/cloudflare/-/cloudflare-1.14.4.tgz#e9da69a58df185eebd52501318f92a7892fd39d5"
+  integrity sha512-2dODhjsRsZog1VHxX9QwUkxq76aBwaEl+L67m8c47V6zZpIgAFODHMxtj5NPM3uz6pUiT4edYGNS5bR99ck3Jg==
   dependencies:
     "@ast-grep/napi" "0.40.0"
     "@dotenvx/dotenvx" "1.31.0"
-    "@opennextjs/aws" "3.9.1"
+    "@opennextjs/aws" "3.9.4"
     cloudflare "^4.4.1"
     enquirer "^2.4.1"
     glob "^12.0.0"

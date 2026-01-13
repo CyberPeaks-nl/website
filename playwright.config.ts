@@ -11,10 +11,11 @@ const config: PlaywrightTestConfig = {
   },
   webServer: {
     reuseExistingServer: !process.env.CI,
-    command: `yarn dev -p ${PORT}`,
+    command: `npm run dev -- -p ${PORT}`,
     port: PORT,
   },
   retries: 2,
+  reporter: "dot",
 };
 
 export default config;

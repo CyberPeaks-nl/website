@@ -17,6 +17,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install
         run: npm install
+      - name: Post install
+        run: npx playwright install
       - name: Audit
         run: npm audit --audit-level high
       - name: Lint

@@ -9,6 +9,7 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
       <head>
         <meta charSet="utf-8" />
         <meta name="description" content={`${FULL_NAME} - ${SNIPPET}`} />
+        <meta name="build-id" content={process.env.NEXT_PUBLIC_BUILD_ID} />
         <title>{`${COMPANY_NAME} - ${TAG_LINE}`}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
